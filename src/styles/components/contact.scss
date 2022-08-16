@@ -1,0 +1,23 @@
+.contact-container {
+  .card-contact {
+    @media screen and (max-width: $screen-md) {
+      width: 100% !important;
+      margin-bottom: 1em;
+      .title-skills {
+        a {
+          h5 {
+            text-align: center;
+          }
+        }
+      }
+    }
+    figure {
+      @media screen and (max-width: $screen-md) {
+        width: 100%;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

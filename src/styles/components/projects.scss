@@ -1,0 +1,29 @@
+.projects-container {
+  .card-project {
+    @media screen and (max-width: $screen-md) {
+      width: 100%;
+      .title-skills {
+        a {
+          h5 {
+            text-align: center;
+          }
+        }
+      }
+    }
+    .container-description {
+      max-height: none !important;
+      height: 12em !important;
+    }
+    .link-repository {
+      margin-top: 1em;
+    }
+    figure {
+      @media screen and (max-width: $screen-md) {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

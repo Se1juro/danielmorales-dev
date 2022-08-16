@@ -1,13 +1,16 @@
+@import "./variables";
+@import "./components/skills.scss";
+@import "./components/projects.scss";
+@import "./components/contact.scss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Heebo', sans-serif;
-
+body {
+  font-family: "Heebo", sans-serif;
 }
