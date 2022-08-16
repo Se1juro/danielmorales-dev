@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  ignorePatterns: ["dist/*"],
+  ignorePatterns: ["dist/*", "cypress.config.js,*.cy.js, cypress/*"],
   plugins: ["react"],
   rules: {
     indent: ["error", 2],
