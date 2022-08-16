@@ -3,13 +3,20 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    "jest/globals": true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:jest/recommended",
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  ignorePatterns: ["dist/*"],
   plugins: ["react"],
   rules: {
     indent: ["error", 2],
