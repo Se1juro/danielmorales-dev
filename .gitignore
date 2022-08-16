@@ -24,7 +24,6 @@ dist-ssr
 *.sw?
 
 cypress/videos
-cypress/support
 cypress/plugins
 cypress/screenshots
 cypress/fixtures
