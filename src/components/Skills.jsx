@@ -15,7 +15,7 @@ const Skills = ()=>{
                 </figure>
                 <div className="p-5 title-skills">
                   <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-center">{skill.name}</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  sm:text-center">{skill.name}</h5>
                   </a>
                 </div>
               </div>))}
