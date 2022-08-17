@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16
       - name: Install dependencies
-        run: npm install --no-audit --no-fund --no-optional
+        run: npm ci
       - name: Lint
         run: npm run lint
       - name: Build
@@ -30,3 +30,9 @@ jobs:
           start: npm run dev
           wait-on: http://localhost:5173
           browser: chrome
+      - name: Deploy to Heroku
+        uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: ${{secrets.HEROKU_APP}}#Must be unique in Heroku
+          heroku_email: ${{secrets.HEROKU_API_EMAIL}}

@@ -4,4 +4,7 @@ export default {
       // implement node event listeners here
     },
   },
+  videos: {
+    video: false,
+  },
 };
