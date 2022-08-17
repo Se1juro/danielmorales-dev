@@ -14,9 +14,7 @@ const Skills = ()=>{
                   <img className="rounded-t-lg" src={skill.image} alt={skill.name}/>
                 </figure>
                 <div className="p-5 title-skills">
-                  <a href="#">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  sm:text-center">{skill.name}</h5>
-                  </a>
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  sm:text-center">{skill.name}</h5>
                 </div>
               </div>))}
           </div>
